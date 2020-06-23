@@ -1,4 +1,4 @@
-<h1>Hello Cloudreach!</h1>
+<h1>Hello Resonant IT Cloudreach!</h1>
 <h4>Attempting MySQL connection from php...</h4>
 <?php
 $host = 'mysql';
@@ -11,5 +11,5 @@ if ($conn->connect_error) {
 } else {
     echo "Connected to MySQL successfully!";
 }
-
+phpinfo()
 ?>
